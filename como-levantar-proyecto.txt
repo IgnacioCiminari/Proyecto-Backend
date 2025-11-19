@@ -1,0 +1,7 @@
+-> En el directorio raiz ingresar lo siguiente:
+
+-> [docker compose up --build -d]
+
+el "--build" lo que hace es compilar. Si no le hiciste cambios al codigo, no hace falta ponerlo. Solo la primera vez
+
+=> El .rar que se tiene que entregar no tiene que tener: target, .git

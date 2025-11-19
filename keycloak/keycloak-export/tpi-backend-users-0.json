@@ -1,0 +1,160 @@
+{
+  "realm" : "tpi-backend",
+  "users" : [ {
+    "id" : "3c4899d2-9b0f-4c09-aef7-a1955f51adb0",
+    "username" : "admin01",
+    "firstName" : "admin",
+    "lastName" : "1",
+    "email" : "admin@example.com",
+    "emailVerified" : false,
+    "attributes" : {
+      "id_cliente" : [ "1" ]
+    },
+    "createdTimestamp" : 1763249684541,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "d056e3ee-bfdb-43d1-a909-8f1bc4a55f33",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1763326278183,
+      "secretData" : "{\"value\":\"v1J8Jr1WhWJ9ec5S08hMEMhEzQNM2rPoG9wVgdo7pJgnCD/nlujtx8EPK/HDCgVae5jNF2+MQtv5EWq1dWB2uQ==\",\"salt\":\"tPY939OGd1AJTbdMbV8NSw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-tpi-backend", "admin" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "4951dfea-01d1-40be-9e92-600493a72478",
+    "username" : "transp01",
+    "firstName" : "user",
+    "lastName" : "04",
+    "email" : "user04@example.com",
+    "emailVerified" : false,
+    "attributes" : {
+      "id_cliente" : [ "1" ]
+    },
+    "createdTimestamp" : 1763248290619,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "82db7ec9-fb87-479c-83cc-b1fd3e43976e",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1763248336733,
+      "secretData" : "{\"value\":\"eA66KSUotpzV/+1R49+LKqTKLJrQfmBheC1XDYkVsNXpQz/qI8RvFVupIuOT9niSDTMMO4OScMQqkt+iQAzD/A==\",\"salt\":\"lIcw5umoQBQQrYN5gBX6Ug==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-tpi-backend", "transportista" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "c86d74c3-d2c9-4556-8dce-00bcc287622f",
+    "username" : "transp02",
+    "firstName" : "user",
+    "lastName" : "5",
+    "email" : "user05@gmail.com",
+    "emailVerified" : false,
+    "attributes" : {
+      "id_cliente" : [ "5" ]
+    },
+    "createdTimestamp" : 1763248316326,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "a749e70d-feda-4955-b9e3-afd70251dd2a",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1763248327114,
+      "secretData" : "{\"value\":\"fVVNG0pxLux4dfAjuoAr6hexl5AZ8KIfmIaDJOXPw3+3gfMvx4A0sbmr7RGyrz6U9klB0sB7ZIxZ/2X8SXG4Qw==\",\"salt\":\"ozkfKa1PJDl71+8p/khqBg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-tpi-backend", "transportista" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "11ccc97d-0835-417b-b1a3-1c2989870d63",
+    "username" : "user01",
+    "firstName" : "user",
+    "lastName" : "1",
+    "email" : "user01@example.com",
+    "emailVerified" : false,
+    "attributes" : {
+      "id_cliente" : [ "1" ]
+    },
+    "createdTimestamp" : 1763248171449,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "8c3f2a78-8f3b-4a63-8b98-14168f37cf85",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1763248348690,
+      "secretData" : "{\"value\":\"71nWR+NhjBotx/SysjgD4hlwGBEDDhYqCK3YlBIqeONFOYopQwqPc2vT4zr9kpKwAgGRm6oiZ21sC6LLjTaBag==\",\"salt\":\"zt91hBqoWD+PZuJy50hdbA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-tpi-backend", "cliente" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "e6e47a94-053d-4843-bd1a-3a10ff6b912c",
+    "username" : "user02",
+    "firstName" : "user",
+    "lastName" : "2",
+    "email" : "user02@example.com",
+    "emailVerified" : false,
+    "attributes" : {
+      "id_cliente" : [ "2" ]
+    },
+    "createdTimestamp" : 1763248197840,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "37636a0c-4355-41e2-965b-404a3d4250ea",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1763248360658,
+      "secretData" : "{\"value\":\"hIkWJ95mcoZ+aW6YWRhPZm5cIkHIoiVoocAuxlcLxKnNhigbzL8/gOOnJ3jLbr00C1xFuigAZMrGktLmHPPz5g==\",\"salt\":\"OvIlsNotKXCnkhaSQDvyYg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-tpi-backend", "cliente" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "6938b45c-72d0-4d3d-a315-3fa15667b337",
+    "username" : "user03",
+    "firstName" : "user",
+    "lastName" : "3",
+    "email" : "user03@example.com",
+    "emailVerified" : false,
+    "attributes" : {
+      "id_cliente" : [ "3" ]
+    },
+    "createdTimestamp" : 1763248229096,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "b70d0495-11aa-413c-9f04-5980b9a8e425",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1763248369897,
+      "secretData" : "{\"value\":\"4NYVAWLqDyKjoQN9ndDCW3YCOiIvFpzTusoddXfVGo4UfRcunM7OVT19COxMd6ZAEjYGHbiMhz+h7dKLzSbglA==\",\"salt\":\"GueiF2IwvYIxTcBGxodyDQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-tpi-backend", "cliente" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}

@@ -1,0 +1,29 @@
+USUARIOS CREADOS EN KEYCLOCK:
+- CLIENTES (cliente)
+-> username: federico_cliente / correo: fede@example.com / contraseña: fede123
+-> username: julieta_cliente / correo: julieta@gmail.com / contraseña: juli123
+
+- TRANSPORTISTAS (transportista)
+-> username: matias_transportista / correo: mati@gmail.com / contraseña: mati123
+-> username: cecilia_transportista / correo: ceci@example.com / contraseña: ceci123
+
+- ADMINISTRADORES / OPERADORES (admin)
+-> username: pedro_admin / correo: pedro@example.com / contraseña: pedro123
+-> username: lucas_admin / correo: lucas@gmail.com / contraseña: lucas123
+
+URL Para iniciar sesion:
+http://localhost:8086/realms/tpi-backend/protocol/openid-connect/auth
+ ?client_id=tpi-backend-client
+ &response_type=code
+ &redirect_uri=http://localhost:8080/api/login/oauth2/code/keycloak
+
+### Obtener token vía código de autorización
+POST http://localhost:8086/realms/tpi-backend/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+grant_type=authorization_code
+code=<el_code_recibido>
+client_id=tpi-backend-client
+redirect_uri=http://localhost:8080/api/login/oauth2/code/keycloak
+
+13481dca-cdab-42b2-b4ec-1f581151b6bc.65d15c81-638f-40a8-bf19-2eef39428322.9467299d-a7af-4962-ba1a-7bc1a0725682
+6ecb89db-51d3-4af3-afef-7c966308589a.65d15c81-638f-40a8-bf19-2eef39428322.9467299d-a7af-4962-ba1a-7bc1a0725682
